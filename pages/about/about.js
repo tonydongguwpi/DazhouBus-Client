@@ -24,6 +24,22 @@ Page({
     })
   },
 
+  githubPaste: function () {
+    wx.setClipboardData({
+      data: 'https://github.com/blackyau/DazhouBus-Client',
+      success(res) {
+        wx.getClipboardData({
+          success(res) {
+            wx.showToast({
+              title: '复制成功',
+              icon: 'success'
+            })
+          }
+        })
+      }
+    })
+  },
+
   previewImage: function(e) {
     var current = e.target.dataset.src;
     wx.previewImage({

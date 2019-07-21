@@ -27,3 +27,11 @@
     justify-content: center;
     margin: 0rpx 30rpx 0rpx 30rpx;
 }
+
+.secondary_github {
+    width: 690rpx;
+    text-align: center;
+    font-size: 40rpx;
+    justify-content: center;
+    margin: 0rpx 30rpx 0rpx 30rpx;
+}

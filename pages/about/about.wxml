@@ -8,4 +8,6 @@
 <image class="secondary_image" src="https://st.blackyau.net/img/donate.jpg" catchtap="previewImage"></image>
 <view class="secondary_donate">由于微信限制，你需要先「单击」，再「长按保存到本机」，随后在「扫一扫」中从图库选择二维码</view>
 <view class="secondary_donate" catchtap="textPaste">Email:blackyau@qq.com(点击复制)</view>
+<view class="secondary_github" catchtap="githubPaste">GitHub项目地址(点击复制)</view>
+<view class="secondary_github" catchtap="githubPaste">blackyau/DazhouBus-Client</view>
 </view>
