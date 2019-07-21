@@ -8,7 +8,7 @@
 
 ## 效果图
 
-![效果图1](https://st.blackyau.net/share/DazhouBus-Server-Demo-1.jpg)![效果图2](https://st.blackyau.net/share/DazhouBus-Server-Demo-2.jpg)
+![效果图1](https://st.blackyau.net/share/DazhouBus-Server-Demo-1.png)
 
 [Denmo视频](https://st.blackyau.net/share/DazhouBus-Demo.mp4)
 
@@ -18,7 +18,7 @@
 
 ## 常见问题
 
-主页的线路信息不是实时获取的，因为公交线路变化的很少，所以数据是直接通过读取 `pages\index\index.js` 中的 `data.linesData` 来获得。最新数据数据可以通过 [DazhouBus-Server GetIndexData.py](https://github.com/blackyau/DazhouBus-Server#获取最新主页数据) 来获得。
+主页的线路信息不是实时获取的，因为公交线路变化的很少，所以数据是直接通过读取 `pages\index\index.js` 中的 `data.linesData` 来获得。最新数据可以通过 [DazhouBus-Server GetIndexData.py](https://github.com/blackyau/DazhouBus-Server#获取最新主页数据) 来获得。
 
 ## 待完成
 
