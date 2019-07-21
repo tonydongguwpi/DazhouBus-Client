@@ -1,0 +1,84 @@
+/* pages/index/index.wxss */
+
+page {
+  background-color: #efeff4;
+}
+
+view.search {
+  display: flex;
+  flex-direction: row;
+  height: 98rpx;
+  background: #efeff4;
+  align-items: center;
+}
+
+view.searchItem {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  padding: 10rpx;
+}
+
+view.searchItem icon {
+  align-self: center;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+view.searchItem input {
+  flex: 1;
+  font-size: 30rpx;
+}
+
+view.line_list {
+  display: flex;
+  justify-content: center;
+  width: 750rpx;
+  padding: 0rpx 0rpx 20rpx 10rpx;
+  flex-direction: column;
+}
+
+view.line_info {
+  padding: 20rpx; /*卡片的外边距*/
+  margin : 20rpx 0rpx 0rpx 10rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 675rpx;
+  height: 150rpx; /*卡片的高度*/
+  border-radius: 5rpx;
+  background-color: #ffffff;
+  flex-direction: column;
+  display: flex;
+}
+
+.line_no {
+  display: flex;
+  justify-content: center;
+  font-size: 60rpx;
+}
+
+.switch_button {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 15rpx;
+  margin-top: 25rpx;
+}
+
+.line_start_end {
+  margin-top: 20rpx;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  margin-top: 12rpx;
+}

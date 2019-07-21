@@ -1,0 +1,24 @@
+<!--pages/line/line.wxml-->
+<view class="all">
+  <view class="station_first_last">
+    <view class="station_first">{{stationFirst}}</view>
+    <image class="switch_button" src="/static/switch.png" bindtap="switch_line"/>
+    <view class="station_last">{{stationLast}}</view>
+  </view>
+
+  <view class="first_last_time">
+    <view class="first_time">首班：{{firstTime}}</view>
+    <view class="last_time">末班：{{lastTime}}</view>
+  </view>
+
+  <view class="station_info">
+    <block wx:for="{{allinfo}}" wx:key="labelNo">
+      <view class="station_info_item">
+        <block wx:for="{{[5,4,3,2,1,0]}}" wx:key="" wx:for-item="i">
+            <image class="{{item.busCount>i?'bus_icon':'bus_icon_hidden'}}" src="/static/bus.png"></image>
+        </block>
+        <view class="station_name">{{item.stationName}}</view>
+      </view>
+    </block>
+  </view>
+</view>

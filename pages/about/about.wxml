@@ -1,0 +1,11 @@
+<!--pages/about/about.wxml-->
+<view class="root">
+<view class="secondary">你好,欢迎使用「达州实时公交」</view>
+<view class="secondary">微信小程序</view>
+<view class="secondary">这是一个非官方应用</view>
+<view class="secondary">所有数据都来自于「达州通APP」</view>
+<view class="secondary">如果你觉得这个应用，对你很有帮助。可以考虑捐赠来支持我这个普通的大二学生，所有的捐赠都将用来：提升环境配置以及积极性。</view>
+<image class="secondary_image" src="https://st.blackyau.net/img/donate.jpg" catchtap="previewImage"></image>
+<view class="secondary_donate">由于微信限制，你需要先「单击」，再「长按保存到本机」，随后在「扫一扫」中从图库选择二维码</view>
+<view class="secondary_donate" catchtap="textPaste">Email:blackyau@qq.com(点击复制)</view>
+</view>

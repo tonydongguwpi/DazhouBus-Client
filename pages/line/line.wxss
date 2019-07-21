@@ -1,0 +1,83 @@
+/* pages/line/line.wxss */
+
+page {
+  background-color: #efeff4;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  justify-content: center;
+}
+
+.station_first_last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20rpx;
+  font-size: 35rpx;
+}
+
+.switch_button {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 5rpx 30rpx 0rpx 30rpx;
+}
+
+.first_last_time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first_time {
+  margin: 20rpx;
+  color: #888888;
+}
+
+.last_time {
+  margin: 20rpx;
+  color: #888888;
+}
+
+.station_info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.station_info_item {
+  display: flex;
+  flex-direction: row;
+}
+
+.station_name {
+  display: flex;
+  text-align: right;
+  font-size: 40rpx;
+  margin: 8rpx 0rpx 13rpx 30rpx;
+}
+
+.bus_icon {
+  display: flex;
+  float: right;
+  height: 40rpx;
+  width: 40rpx;
+  margin: 15rpx 0rpx 0rpx 10rpx;
+}
+
+.bus_icon_hidden {
+  display: flex;
+  float: right;
+  height: 40rpx;
+  width: 40rpx;
+  margin: 15rpx 0rpx 0rpx 10rpx;
+  opacity: 0;
+}
+
+.bus_count {
+  display: flex;
+  text-align: right;
+  margin: 8rpx 0rpx 0rpx 8rpx;
+}

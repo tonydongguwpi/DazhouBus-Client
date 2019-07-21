@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<view class="search">
+  <view class="searchItem">
+    <icon type="search" size="18"/>
+    <input class="weui-input" type="number" confirm-type= "search" placeholder="搜索公交线路(暂不可用)" />
+  </view>
+</view>
+
+<view class="line_list">
+
+  <view wx:for="{{linesData}}" wx:key="lineNo" data-id="{{item.lineNo}}" data-updown="{{item.isUpDown}}" class="line_info" bindtap="openLine">
+    <view class="line_no">
+      <view>{{item.lineName}}</view>
+      <image class="switch_button" src="/static/switch.png" data-id="{{index}}" catchtap="switchLine"></image>
+    </view>
+
+    <view class="line_start_end">
+      <view class="line_start">{{item.stationFirst}}</view>
+      <image class="arrow" src="/static/arrow.png"></image>
+      <view class="line_end">{{item.stationLast}}</view>
+    </view>
+  </view>
+
+</view>

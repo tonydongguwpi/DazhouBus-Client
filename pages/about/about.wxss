@@ -1,0 +1,29 @@
+/* pages/about/about.wxss */
+.root {
+    display: flex;
+    width: 750rpx;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondary {
+    width: 690rpx;
+    text-align: center;
+    font-size: 40rpx;
+    justify-content: center;
+    margin: 0rpx 30rpx 0rpx 30rpx;
+}
+
+.secondary_image {
+    width: 500rpx;
+    height: 500rpx;
+    margin: 0 auto;
+}
+
+.secondary_donate {
+    width: 690rpx;
+    text-align: center;
+    font-size: 30rpx;
+    justify-content: center;
+    margin: 0rpx 30rpx 0rpx 30rpx;
+}
